@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C729409-6226-2CB5-D320-142A0389735C" name="Address">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:15:33 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AddressKey" id="9AB80AFD-683C-0E53-2A8A-411896454FCA">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:16:41 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="AA92A457-49D4-8E6E-237F-A1A10A9E9F07">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:17:45 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PostCode" id="EE16D0DF-3E61-5AFF-6B81-DAB1E8AD29C0">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:18:00 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Street" id="E97FE7DC-4607-ECB9-4395-03CA0761D438">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:21:21 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HouseNumber" id="D160BE05-60FD-DFB7-41A4-01DDB8A70A9F">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:21:41 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ApartmentNumber" id="752BDB6F-FD77-1995-7C65-E9E021F82E65">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:22:57 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CA90CE6-A324-775C-2B1E-0059DA76D41E" name="Address PK">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:17:45 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9AB80AFD-683C-0E53-2A8A-411896454FCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

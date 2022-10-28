@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA4356A3-DB2F-513E-EDCF-BF2E23920442" name="Event">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>3DF2C171-4C09-AC3D-5F61-AAB806CBB14B</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EventKey" id="7D57B3DB-9257-2EC8-3D4F-83A04325011E">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>0E4CB1EE-19A1-87D7-D65A-DB62B90709F4</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EventName" id="365A0E94-1FAB-DBAE-2CE6-A13466A84E74">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>C0360DA8-71FF-1739-D1E5-38CC980F3899</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mature" id="5A7C31DA-681D-14DF-AAAC-983BBD042A2E">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>DAF618C9-1F02-823F-4043-8C7F5AC3B666</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="095BA82E-1023-A0DD-BAC2-F4DFE76D489A" name="Event_PK">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>B1794E72-0B06-1D7B-6125-AA5B39293942</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D57B3DB-9257-2EC8-3D4F-83A04325011E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

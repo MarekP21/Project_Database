@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A781041D-2FC1-AB35-81D5-625A30674312" name="Ticket">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>02C34606-0733-EBA1-4B39-C6D0F66D7973</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TicketKey" id="DAF889CA-68F9-A327-5580-1019B395DE16">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>26AA244C-5176-7B9A-E972-181E04DD7E8A</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TicketPrice" id="BF94F65B-2728-4B7E-4BB3-1EA7BEADEB18">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>734FCB7E-FCFD-37D7-36FC-ECF5AF1A8E8E</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EventName" id="3BFBDAC9-FA47-46ED-5258-6483BCACB552">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>4C989A18-F16E-E57F-887E-B839EB223A10</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_EventKey" id="9F6C064D-77D3-807E-9A6F-B2D88FB06B41">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>6AD7AA92-D09A-047E-0CF4-4A041E0782E0</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7980782A-12E0-2EC9-F4CB-294B85FC3DC8" referredColumn="7D57B3DB-9257-2EC8-3D4F-83A04325011E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34104798-855E-791A-6099-905D7B7E6837" name="Ticket_PK">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>67E4C180-D92B-2C9A-A7A0-DD657F22253D</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAF889CA-68F9-A327-5580-1019B395DE16"/>
+<colUsage columnID="9F6C064D-77D3-807E-9A6F-B2D88FB06B41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C4EF09A-3A0D-448C-B937-D46C1402FBC8" name="Ticket_Event_FK">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>C0A913A7-8E77-A253-87B2-80AFD49F468C</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F6C064D-77D3-807E-9A6F-B2D88FB06B41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

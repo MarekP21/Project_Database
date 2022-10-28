@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4BC47A7-6499-726A-BE15-36D64839ECB1" name="Address">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>2C729409-6226-2CB5-D320-142A0389735C</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AddressKey" id="3B393E1C-B135-7910-5C28-454792666FCE">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>9AB80AFD-683C-0E53-2A8A-411896454FCA</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="95A91217-74B9-A442-5E37-E12CA5F7C157">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>AA92A457-49D4-8E6E-237F-A1A10A9E9F07</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostCode" id="EA0DC91E-069A-DC21-E1B2-07A88C0DC6C7">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>EE16D0DF-3E61-5AFF-6B81-DAB1E8AD29C0</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Street" id="B9F9A2B6-36E7-CD47-8D35-7D10498AC495">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>E97FE7DC-4607-ECB9-4395-03CA0761D438</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HouseNumber" id="D4588FE6-4990-8976-5716-D627113A9646">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>D160BE05-60FD-DFB7-41A4-01DDB8A70A9F</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ApartmentNumber" id="18281E74-EABC-1EAE-9568-4E9019BC5421">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>752BDB6F-FD77-1995-7C65-E9E021F82E65</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3FB93F8-3B33-3489-F4CD-4CC064EF421B" name="Address_PK">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:58 UTC</createdTime>
+<generatorID>1CA90CE6-A324-775C-2B1E-0059DA76D41E</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B393E1C-B135-7910-5C28-454792666FCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

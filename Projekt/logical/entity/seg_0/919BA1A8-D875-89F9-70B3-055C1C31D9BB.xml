@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="919BA1A8-D875-89F9-70B3-055C1C31D9BB" name="Customer">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:10:17 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerKey" id="D96EDC0F-580B-4C84-4182-306BF17C99F5">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:10:29 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="9B618299-4B92-5B8E-7ED8-368BEE6062B3">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:10:57 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="4591E06E-E92B-A822-50FA-9CE6F5945C58">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:11:20 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="1D807537-0645-4500-F4F8-316875BCDE53">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:11:30 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateOfBirth" id="6E7243DB-958A-1E45-4EEC-E9D220E1B2CF">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:12:02 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AddressKey" id="5D95F8E9-D31B-FFDF-02CF-51D04183131F">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:24:21 UTC</createdTime>
+<generatorID>F66A2959-4513-1994-A77B-A7C6570CEDBB</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<referedAttribute>9AB80AFD-683C-0E53-2A8A-411896454FCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FC598ED-8799-7211-CE9A-6F7FCDBEBF68" name="Customer PK">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:10:53 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D96EDC0F-580B-4C84-4182-306BF17C99F5</attributeRef>
+<attributeRef>5D95F8E9-D31B-FFDF-02CF-51D04183131F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D2E8CC4D-C61A-6EEE-78F9-D7BF01E00AC1" name="Email_uk">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:14:11 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<newElementsIDs>1D807537-0645-4500-F4F8-316875BCDE53</newElementsIDs>
+<usedAttributes>
+<attributeRef>1D807537-0645-4500-F4F8-316875BCDE53</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

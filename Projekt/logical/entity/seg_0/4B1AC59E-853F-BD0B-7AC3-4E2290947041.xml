@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B1AC59E-853F-BD0B-7AC3-4E2290947041" name="Order">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:33:44 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderKey" id="4781C09B-8EBE-E392-5A38-A52881FEAE1C">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:33:52 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderDate" id="4EDACFB5-D8A6-CB5A-E45D-10942B7FC738">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:34:09 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerKey" id="B0E50482-F9FC-0B0F-CCF1-58423F76C71E">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:36:34 UTC</createdTime>
+<generatorID>AA6E3183-1AE1-BAAA-358D-7D65663ACE4E</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<referedAttribute>D96EDC0F-580B-4C84-4182-306BF17C99F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AddressKey" id="880362D4-9862-6B55-5553-8E88D708B860">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:36:34 UTC</createdTime>
+<generatorID>AA6E3183-1AE1-BAAA-358D-7D65663ACE4E</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<referedAttribute>5D95F8E9-D31B-FFDF-02CF-51D04183131F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F487AC53-AE2F-FC39-C05C-519F3EADEE2A" name="Order PK">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:34:08 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4781C09B-8EBE-E392-5A38-A52881FEAE1C</attributeRef>
+<attributeRef>B0E50482-F9FC-0B0F-CCF1-58423F76C71E</attributeRef>
+<attributeRef>880362D4-9862-6B55-5553-8E88D708B860</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Event_Ticket" directorySegmentName="seg_0" id="C0A913A7-8E77-A253-87B2-80AFD49F468C">
+<createdBy>telem</createdBy>
+<createdTime>2022-10-24 11:32:37 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="F9387AB7-113F-69EF-CED3-D4943CBD3525" value="true"/>
+</engineerTo>
+<sourcePk>B1794E72-0B06-1D7B-6125-AA5B39293942</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3DF2C171-4C09-AC3D-5F61-AAB806CBB14B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>02C34606-0733-EBA1-4B39-C6D0F66D7973</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
